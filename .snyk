@@ -1,0 +1,57 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:hoek:20180212':
+    - grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:mime:20170907':
+    - phantomjs > request > form-data > mime:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:minimatch:20160620':
+    - jasmine-node > gaze > fileset > glob > minimatch:
+        patched: '2020-08-11T07:31:49.322Z'
+    - jasmine-node > gaze > minimatch:
+        patched: '2020-08-11T07:31:49.322Z'
+    - jasmine-node > gaze > fileset > minimatch:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:ms:20170412':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:request:20160119':
+    - grunt-lib-phantomjs > phantomjs > request:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request:
+        patched: '2020-08-11T07:31:49.322Z'
+    - phantomjs > request:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:tough-cookie:20170905':
+    - grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2020-08-11T07:31:49.322Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs > request > tunnel-agent:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2020-08-11T07:31:49.322Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2020-08-11T07:31:49.322Z'
