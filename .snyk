@@ -23,6 +23,14 @@ patch:
         patched: '2020-08-11T07:31:49.322Z'
     - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
         patched: '2020-08-11T07:31:49.322Z'
+    - phantomjs > request > hawk > hoek:
+        patched: '2020-09-11T09:20:54.628Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2020-09-11T09:20:54.628Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-09-11T09:20:54.628Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-09-11T09:20:54.628Z'
   'npm:mime:20170907':
     - phantomjs > request > form-data > mime:
         patched: '2020-08-11T07:31:49.322Z'
@@ -48,6 +56,8 @@ patch:
         patched: '2020-08-11T07:31:49.322Z'
     - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
         patched: '2020-08-11T07:31:49.322Z'
+    - phantomjs > request > tough-cookie:
+        patched: '2020-09-11T09:20:54.628Z'
   'npm:tunnel-agent:20170305':
     - phantomjs > request > tunnel-agent:
         patched: '2020-08-11T07:31:49.322Z'
